@@ -1,6 +1,20 @@
 function reverseString(str) {
-  // type your code here
+  let reversed = "";
+
+  for (let i = str.length - 1; i > -1; --i) {
+      reversed = reversed + str[i];
+  }
+
+  return reversed;
 }
+
+console.log("hi")
+console.log(reverseString('hi'));
+
+console.log(reverseString('kimberly'));
+console.log(reverseString("Mark Bauer"));
+console.log(reverseString("The quick brown fox jumped over the lazy dog"));
+console.log(reverseString(""))
 
 if (require.main === module) {
   // add your own tests in here

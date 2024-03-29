@@ -14,3 +14,4 @@ console.log(reverseString('hi'));
 console.log(reverseString('kimberly'));
 console.log(reverseString("Mark Bauer"));
 console.log(reverseString("The quick brown fox jumped over the lazy dog"));
+console.log(reverseString(""))
